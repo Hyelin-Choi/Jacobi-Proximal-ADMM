@@ -15,6 +15,7 @@ The Jacobi-Proximal ADMM is tested on the following problems. The convergence be
 
 | Filename | Experiment Title | Parameter |
 | :--- | :--- | :--- |
-| **`ex1.ipynb`** | Linear Constrained Quadratic Program (LCQP) Model | **Damping Parameter ($\gamma$):** $\gamma \in \{0.1, 0.5, 1.5, 1.9\}$.<br>**Penalty Parameter ($\rho$):** $\rho \in \{0.03, 1, 5, 10\}$ for $N=3$; $\rho \in \{10^{-5}, 0.1, 5, 10\}$ for $N=10$.<br>**Model Setup:** $N=3$ blocks ($m=100$, $n=40$); and $N=10$ blocks ($m=100$, $n=60$). |
-| **`ex2.ipynb`** | Optimal Resource Allocation Problem (ORAP) | **Damping Parameter ($\gamma$):** $\gamma \in \{0.1, 0.5, 1.5, 1.9\}$.<br>**Penalty Parameter ($\rho$):** $\rho \in \{0.03, 1, 5, 10\}$.<br>**Model Setup:** $N=6$ blocks ($m=1$, $n=1$); and $N=20$ blocks ($m=1$, $n=1$). |
+| **`ex1.ipynb`** | Linear Constrained Quadratic Program (LCQP) Model | **Damping Parameter ($\gamma$):** $\gamma \in \{0.1, 0.5, 1.5, 1.9\}$.<br>**Penalty Parameter ($\rho$):** $\rho \in \{0.03, 1, 5, 10\}$ for $N=3$; $\rho \in \{10^{-5}, 0.1, 5, 10\}$ for $N=10$.|
+| **`ex2.ipynb`** | Optimal Resource Allocation Problem (ORAP) | **Damping Parameter ($\gamma$):** $\gamma \in \{0.1, 0.5, 1.5, 1.9\}$.<br>**Penalty Parameter ($\rho$):** $\rho \in \{0.03, 1, 5, 10\}$.|
+
 
